@@ -1,6 +1,21 @@
 .App {
   text-align: center;
 }
+
+.gradient-text {
+  background: linear-gradient(268.28deg, #FFC947 16.84%, #FC6739 84.26%),
+    linear-gradient(0deg, #FAFAFA, #FAFAFA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+}
+
+.gradient-bg{
+  background: linear-gradient(94.25deg, #2B59FF 0%, #BB2BFF 100%);
+}
+
 .ellipse-one {
   position: absolute;
   width: 200px;
@@ -11,6 +26,7 @@
   filter: blur(177px);
   z-index: 0;
 }
+
 .ellipse-two {
   position: absolute;
   width: 200px;
@@ -21,6 +37,7 @@
   filter: blur(177px);
   z-index: 0;
 }
+
 .ellipse-three {
   position: absolute;
   width: 200px;
@@ -31,4 +48,3 @@
   filter: blur(277px);
   z-index: 0;
 }
-

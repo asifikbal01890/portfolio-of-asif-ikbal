@@ -16,3 +16,17 @@
 @keyframes mover3 {
     100% { transform: translateY(-55px); }
 }
+.animate-scale {
+    animation: zoom-in-zoom-out 3.5s ease infinite;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+    transform: scale(0.5, 0.5);
+    }
+    100% {
+    transform: scale(1, 1);
+    }
+    0% {
+    transform: scale(0.5, 0.5);
+    }
+    }

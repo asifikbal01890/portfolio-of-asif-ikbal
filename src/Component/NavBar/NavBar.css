@@ -24,7 +24,7 @@
 }
 
 .nav-menu a {
-    color: rgb(255, 97, 5);
+    color: #752bff;
     display: flex;
     gap: 0.5rem;
     align-items: center;
@@ -45,13 +45,12 @@
     -o-transition: 0.3s all ease-in, 0.1s border-radius ease-in-out;
     text-transform: capitalize;
     overflow: hidden;
-    box-shadow: 0.1rem 0.1rem 1rem rgb(255, 97, 5);
+    box-shadow: 0.1rem 0.1rem 1rem #752bff;
     font-weight: 400;
 
 }
 
 .nav-menu a .side-text {
-    color: rgb(255, 97, 5);
     font-weight: 600;
     color: white;
     display: none;
@@ -72,20 +71,24 @@
     -ms-border-radius: 2.5rem;
     -o-border-radius: 2.5rem;
     color: white;
-    background: rgb(255, 97, 5);
+    background: linear-gradient(94.25deg, #2B59FF 0%, #BB2BFF 100%);
     text-decoration: none;
 
 }
 
-.nav-icon {
-    color: rgb(255, 97, 5);
-    font-size: 1.4rem;
+.nav-icon { 
+    background: linear-gradient(94.25deg, #2B59FF 0%, #BB2BFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* color: rgb(255, 97, 5); */
+    font-size: 1.2rem;
     text-decoration: none;
 }
 
 .nav-menu a:hover .side-text {
     display: inline-block;
-    margin-left: .6rem;
+    margin-left: .1rem;
     text-decoration: none;
 }
 
@@ -99,7 +102,7 @@
 
 .active {
     color: white !important;
-    background: rgb(255, 97, 5) !important;
+    background: linear-gradient(94.25deg, #2B59FF 0%, #BB2BFF 100%) !important;
 }
 
 .active .nav-icon {
@@ -134,7 +137,7 @@
         top: 0;
         position: fixed;
         left: 0;
-        background: white;
+        background: #07060E;
     }
 
     .menuToggler {
