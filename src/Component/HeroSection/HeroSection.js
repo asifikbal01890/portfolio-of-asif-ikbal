@@ -11,6 +11,8 @@ import './HeroSection.css';
 import EllipseTwo from '../../BgLight/EllipseTwo';
 import EllipseThree from '../../BgLight/EllipseThree';
 import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import EllipaseFour from '../../BgLight/EllipaseFour';
 
 const HeroSection = () => {
 
@@ -41,9 +43,9 @@ const HeroSection = () => {
                         />
                     </span>
                     <div className='flex items-center gap-8 text-3xl'>
-                        <p className='gradient-bg rounded-full p-1'><p className='animate-scale'><FaFacebook></FaFacebook></p></p>
-                        <p className='gradient-bg rounded-full p-1'><p className='animate-scale'><FaLinkedinIn></FaLinkedinIn></p></p>
-                        <p className='gradient-bg rounded-full p-1'><p className='animate-scale'><FaGithub></FaGithub></p></p>
+                        <Link to="https://www.facebook.com/asif.ikbal.420/"><p className='gradient-bg rounded-full p-1'><p className='animate-scale'><FaFacebook></FaFacebook></p></p></Link>
+                        <Link to="https://www.linkedin.com/in/asif-ikbal-948a63259/"><p className='gradient-bg rounded-full p-1'><p className='animate-scale'><FaLinkedinIn></FaLinkedinIn></p></p></Link>
+                        <Link to="https://github.com/asifikbal01890"><p className='gradient-bg rounded-full p-1'><p className='animate-scale'><FaGithub></FaGithub></p></p></Link>
                     </div>
                 </div>
                 <div>
@@ -63,6 +65,7 @@ const HeroSection = () => {
             <EllipseOne></EllipseOne>
             <EllipseTwo></EllipseTwo>
             <EllipseThree></EllipseThree>
+            <EllipaseFour></EllipaseFour>
         </div>
     );
 };

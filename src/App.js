@@ -5,7 +5,7 @@ import FullWindowsAnimation from './Component/Animations/FullWindowsAnimation/Fu
 
 function App() {
   return (
-    <div className='h-screen'>
+    <div>
       <RouterProvider
         router={router}
       ></RouterProvider>
