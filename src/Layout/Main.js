@@ -1,13 +1,19 @@
 import React from 'react';
-import NavBar from '../Component/NavBar/NavBar';
-import { Outlet } from 'react-router-dom';
 import Footer from '../Component/Footer/Footer';
+import ContactByFb from '../Component/ContactByFb/ContactByFb';
+import Skills from '../Component/Skills/Skills';
+import Projects from '../Component/Projects/Projects';
+import ContactByEmail from '../Component/ContactByEmail/ContactByEmail';
+import HeroSection from '../Component/HeroSection/HeroSection';
 
 const Main = () => {
     return (
-        <div>
-            <NavBar></NavBar>
-            <Outlet></Outlet>
+        <div id='mainContent'>
+            <HeroSection></HeroSection>
+            <Skills></Skills>
+            <Projects></Projects>
+            <ContactByEmail></ContactByEmail>
+            <ContactByFb></ContactByFb>
             <Footer></Footer>
         </div>
     );

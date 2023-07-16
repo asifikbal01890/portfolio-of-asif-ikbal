@@ -26,6 +26,15 @@
 
 }
 
+.contact-text {
+  background: linear-gradient(94.25deg, #BB2BFF 0%, #2B59FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+}
+
 .gradient-bg {
   background: linear-gradient(94.25deg, #2B59FF 0%, #BB2BFF 100%);
 }
@@ -43,6 +52,18 @@
   background: linear-gradient(94.25deg, #0035F5 0%, #A600F5 100%);
 }
 
+.download-btn {
+  background: linear-gradient(268.28deg, #ffb60c 16.84%, #ff5825 84.26%);
+  border-radius: 5px;
+}
+
+.download-btn:hover {
+  background: linear-gradient(268.28deg, #ebbb4b 16.84%, #eb7653 84.26%);
+}
+.download-btn:active {
+  background: linear-gradient(268.28deg, #ffb300 16.84%, #ff3c00 84.26%);
+}
+
 .box {
   transform: translate(0);
 }
@@ -56,6 +77,25 @@
   background: linear-gradient(94.25deg, rgba(43, 89, 255, 0.5) 0%, rgba(187, 43, 255, 0.5) 100%);
   filter: blur(20px);
 }
+
+.input-contact {
+  font-size: 16px;
+  border-width: 0px;
+  border: 2px;
+  border-color: transparent;
+  color: #000000;
+  border-style: solid;
+}
+.input-contact:focus {
+  outline:none;
+  border-color: rgb(160, 26, 255);
+  transition-duration: 500ms;  
+}
+.input-contact::placeholder{
+  color: #00000081;
+  font-weight: 600;
+}
+
 
 .ellipse-one {
   position: absolute;

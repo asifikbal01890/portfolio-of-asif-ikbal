@@ -133,7 +133,7 @@
     }
 
     .openMenu {
-        width: 20rem;
+        width: 15rem;
         top: 0;
         position: fixed;
         left: 0;
@@ -146,7 +146,7 @@
         top: 50px;
         right: 25px;
         z-index: 50;
-        color: rgb(255, 97, 5);
+        color: white;
 
     }
 }

@@ -67,32 +67,22 @@ const Skills = () => {
 
 
     return (
-        <div className='text-center my-56 text-white w-[1200px] mx-auto'>
-            <h1 className='font-[Outfit] text-5xl'>Professional <span className='gradient-text'>Skills</span></h1>
-            <div className='mt-10 grid grid-cols-5 gap-6'>
+        <div id='skills' className='text-center my-16 lg:my-56 text-white max-w-[1300px] mx-auto'>
+            <h1 className='font-[Outfit] text-3xl md:text-5xl'>Professional <span className='gradient-text'>Skills</span></h1>
+            <div className='mt-10 flex flex-wrap justify-center gap-6'>
                 {
-                    logos.slice(0, 10).map((logo, i) =>
-                        <div key={i} className='text-6xl gradient-border py-8 px-20 flex justify-center items-center'>
+                    logos.map((logo, i) =>
+                        <div key={i} className='text-4xl md:text-6xl gradient-border py-5 md:py-8 px-14 md:px-20 flex justify-center items-center'>
                             {logo.icon}
                         </div>)
                 }
             </div>
-            <div className='flex justify-center items-center'>
-                <div className='grid grid-cols-4 gap-6 mt-6'>
-                    {
-                        logos.slice(10, 14).map((logo, i) =>
-                            <div key={i} className='text-6xl gradient-border py-8 px-20 flex justify-center items-center'>
-                                {logo.icon}
-                            </div>)
-                    }
-                </div>
-            </div>
-            <h1 className='font-[Outfit] text-5xl mt-20'><span className='gradient-text pr-[10px]'>Tools</span>I use</h1>
+            <h1 className='font-[Outfit] text-3xl md:text-5xl mt-20'><span className='gradient-text pr-[10px]'>Tools</span>I use</h1>
             <div>
-                <div className='grid grid-cols-5 gap-6 mt-10'>
+                <div className='flex flex-wrap justify-center gap-6 mt-10'>
                     {
                         logos.slice(14, 19).map((logo, i) =>
-                            <div key={i} className='text-6xl gradient-border py-8 px-20 flex justify-center items-center'>
+                            <div key={i} className='text-4xl md:text-6xl gradient-border py-5 md:py-8 px-14 md:px-20 flex justify-center items-center'>
                                 {logo.icon}
                             </div>)
                     }

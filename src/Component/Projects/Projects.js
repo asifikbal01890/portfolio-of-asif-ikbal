@@ -38,7 +38,7 @@ const Projects = () => {
     ]
 
     return (
-        <div className='text-white w-[1200px] mx-auto text-center'>
+        <div id='projects' className='text-white max-w-[1200px] mx-4 lg:mx-auto text-center'>
             <h1 className='font-[Outfit] text-5xl'>My <span className='gradient-text'>Projects</span></h1>
             <section className='mt-20 relative grid grid-cols-1 lg:grid-cols-2 gap-16'>
                 <div className='box gradient-shadow h-96'>
@@ -53,9 +53,9 @@ const Projects = () => {
                         <li>There is also an online payment system so that the buyer can easily purchase the motor bikes. </li>
                     </ul>
                     <div className='flex gap-3 mt-9'>
-                        <Link to={'https://trade-motors.web.app/'} className='gradient-btn px-5 py-2 text-lg font-semibold'>Live Preview</Link>
-                        <Link to={'https://github.com/asifikbal01890/trade-motors-client-site'} className='gradient-btn px-5 py-2 text-lg font-semibold'>GitHub Client Code</Link>
-                        <Link to={'https://github.com/asifikbal01890/trade-motors-server-site'} className='gradient-btn px-5 py-2 text-lg font-semibold'>GitHub Server Code</Link>
+                        <Link to={'https://trade-motors.web.app/'} className='gradient-btn px-5 py-2 text-sm md:text-lg font-semibold'>Live Preview</Link>
+                        <Link to={'https://github.com/asifikbal01890/trade-motors-client-site'} className='gradient-btn px-5 py-2 text-sm md:text-lg font-semibold'>GitHub Client Code</Link>
+                        <Link to={'https://github.com/asifikbal01890/trade-motors-server-site'} className='gradient-btn px-5 py-2 text-sm md:text-lg font-semibold'>GitHub Server Code</Link>
                     </div>
                 </div>
             </section>
@@ -72,9 +72,9 @@ const Projects = () => {
                         <li>User can add his review along with rating and his own comment for particular food and delete this own review. </li>
                     </ul>
                     <div className='flex gap-3 mt-9'>
-                        <Link to={'https://food-corner-remake-2ce32.web.app/'} className='gradient-btn px-5 py-2 text-lg font-semibold'>Live Preview</Link>
-                        <Link to={'https://github.com/asifikbal01890/food-corner-client-site-remake'} className='gradient-btn px-5 py-2 text-lg font-semibold'>GitHub Client Code</Link>
-                        <Link to={'https://github.com/asifikbal01890/food-corner-server-site-remake'} className='gradient-btn px-5 py-2 text-lg font-semibold'>GitHub Server Code</Link>
+                        <Link to={'https://food-corner-remake-2ce32.web.app/'} className='gradient-btn px-5 py-2 text-sm md:text-lg font-semibold'>Live Preview</Link>
+                        <Link to={'https://github.com/asifikbal01890/food-corner-client-site-remake'} className='gradient-btn px-5 py-2 text-sm md:text-lg font-semibold'>GitHub Client Code</Link>
+                        <Link to={'https://github.com/asifikbal01890/food-corner-server-site-remake'} className='gradient-btn px-5 py-2 text-sm md:text-lg font-semibold'>GitHub Server Code</Link>
                     </div>
                 </div>
             </section>
@@ -91,9 +91,9 @@ const Projects = () => {
                         <li>User can register by name, picture, email and password and there is another way to login through Google or GitHub.</li>
                     </ul>
                     <div className='flex gap-3 mt-9'>
-                        <Link to={'https://videoscript-d1cf1.web.app/'} className='gradient-btn px-5 py-2 text-lg font-semibold'>Live Preview</Link>
-                        <Link to={'https://github.com/asifikbal01890/videoscript-client-site'} className='gradient-btn px-5 py-2 text-lg font-semibold'>GitHub Client Code</Link>
-                        <Link to={'https://github.com/asifikbal01890/videoscript-server-site'} className='gradient-btn px-5 py-2 text-lg font-semibold'>GitHub Server Code</Link>
+                        <Link to={'https://videoscript-d1cf1.web.app/'} className='gradient-btn px-5 py-2 text-sm md:text-lg font-semibold'>Live Preview</Link>
+                        <Link to={'https://github.com/asifikbal01890/videoscript-client-site'} className='gradient-btn px-5 py-2 text-sm md:text-lg font-semibold'>GitHub Client Code</Link>
+                        <Link to={'https://github.com/asifikbal01890/videoscript-server-site'} className='gradient-btn px-5 py-2 text-sm md:text-lg font-semibold'>GitHub Server Code</Link>
                     </div>
                 </div>
             </section>
